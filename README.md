@@ -17,6 +17,7 @@ Maven command for first scenario will be: "mvn test -Dcucumber.options"--tags @T
 
 Result Reports: results will be generated in below location in target folder after successful build.
 
+Request & Response logs are presnt at: APIFramework\logs.txt
 Cucumber Html Reports: target/cucumber-html-reports
 Json & html Reports: target/jsonReports
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="iTunes Store API- Constructing Searches" time="3.713" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="iTunes Store API- Constructing Searches" time="3.929" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
-    <property name="sun.java.command" value="C:\Users\AishwaryaJangampeta\AppData\Local\Temp\surefire231786667341789966\surefirebooter13850928532371195487.jar C:\Users\AishwaryaJangampeta\AppData\Local\Temp\surefire231786667341789966 2023-07-14T15-11-11_118-jvmRun1 surefire5391569238358858300tmp surefire_06652189678921507909tmp"/>
+    <property name="sun.java.command" value="C:\Users\AishwaryaJangampeta\AppData\Local\Temp\surefire4020953122098877594\surefirebooter14564346927969413590.jar C:\Users\AishwaryaJangampeta\AppData\Local\Temp\surefire4020953122098877594 2023-07-14T16-30-00_477-jvmRun1 surefire205603960336829952tmp surefire_013793600895550331141tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\AishwaryaJangampeta\Kranthi\eclipse-workspace\APIFramework\target\test-classes;C:\Users\AishwaryaJangampeta\Kranthi\eclipse-workspace\APIFramework\target\classes;C:\Users\AishwaryaJangampeta\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\AishwaryaJangampeta\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\AishwaryaJangampeta\.m2\repository\io\cucumber\cucumber-java\7.13.0\cucumber-java-7.13.0.jar;C:\Users\AishwaryaJangampeta\.m2\repository\io\cucumber\cucumber-core\7.13.0\cucumber-core-7.13.0.jar;C:\Users\AishwaryaJangampeta\.m2\repository\io\cucumber\cucumber-gherkin\7.13.0\cucumber-gherkin-7.13.0.jar;C:\Users\AishwaryaJangampeta\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.13.0\cucumber-gherkin-messages-7.13.0.jar;C:\Users\AishwaryaJangampeta\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\AishwaryaJangampeta\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\AishwaryaJangampeta\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\AishwaryaJangampeta\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\AishwaryaJangampeta\.m2\repository\io\cucumber\datatable\7.13.0\datatable-7.13.0.jar;C:\Users\AishwaryaJangampeta\.m2\repository\io\cucumber\cucumber-plugin\7.13.0\cucumber-plugin-7.13.0.jar;C:\Users\AishwaryaJangampeta\.m2\repository\io\cucumber\docstring\7.13.0\docstring-7.13.0.jar;C:\Users\AishwaryaJangampeta\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\AishwaryaJangampeta\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\AishwaryaJangampeta\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\AishwaryaJangampeta\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\AishwaryaJangampeta\.m2\repository\io\cucumber\cucumber-junit\7.13.0\cucumber-junit-7.13.0.jar;C:\Users\AishwaryaJangampeta\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\AishwaryaJangampeta\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\AishwaryaJangampeta\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\AishwaryaJangampeta\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\AishwaryaJangampeta\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\AishwaryaJangampeta\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\AishwaryaJangampeta\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\AishwaryaJangampeta\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\AishwaryaJangampeta\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\AishwaryaJangampeta\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\AishwaryaJangampeta\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\AishwaryaJangampeta\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\AishwaryaJangampeta\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\AishwaryaJangampeta\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\AishwaryaJangampeta\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\AishwaryaJangampeta\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\AishwaryaJangampeta\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\AishwaryaJangampeta\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\AishwaryaJangampeta\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\AishwaryaJangampeta\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\AishwaryaJangampeta\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\AishwaryaJangampeta\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\AishwaryaJangampeta\AppData\Local\Temp\surefire231786667341789966\surefirebooter13850928532371195487.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\AishwaryaJangampeta\AppData\Local\Temp\surefire4020953122098877594\surefirebooter14564346927969413590.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.19+9-LTS-224"/>
@@ -60,7 +60,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="Search for content by providing the &quot;term&quot; parameter with valid text string" classname="iTunes Store API- Constructing Searches" time="2.125">
+  <testcase name="Search for content by providing the &quot;term&quot; parameter with valid text string" classname="iTunes Store API- Constructing Searches" time="2.341">
     <system-out><![CDATA[
 @Test1
 Scenario: Search for content by providing the "term" parameter with valid text string # src/test/java/features/catalogResources.feature:4
@@ -75,7 +75,7 @@ Scenario: Search for content by providing the "term" parameter with valid text s
   And "kind" in the response body is "feature-movie" in result 6                      # stepDefinitions.catalogResourceStepDefinition.in_the_response_body_is_in_result(java.lang.String,java.lang.String,java.lang.Integer)
 ]]></system-out>
   </testcase>
-  <testcase name="Search for content by providing the &quot;country&quot; parameter with valid two-letter country codes" classname="iTunes Store API- Constructing Searches" time="0.309">
+  <testcase name="Search for content by providing the &quot;country&quot; parameter with valid two-letter country codes" classname="iTunes Store API- Constructing Searches" time="0.338">
     <system-out><![CDATA[
 @Test2
 Scenario: Search for content by providing the "country" parameter with valid two-letter country codes # src/test/java/features/catalogResources.feature:15
@@ -91,7 +91,7 @@ Scenario: Search for content by providing the "country" parameter with valid two
   And "currency" in the response body is "CAD" in result 24                                           # stepDefinitions.catalogResourceStepDefinition.in_the_response_body_is_in_result(java.lang.String,java.lang.String,java.lang.Integer)
 ]]></system-out>
   </testcase>
-  <testcase name="Search for content by specifying the &quot;media&quot; parameter with valid media types" classname="iTunes Store API- Constructing Searches" time="0.255">
+  <testcase name="Search for content by specifying the &quot;media&quot; parameter with valid media types" classname="iTunes Store API- Constructing Searches" time="0.213">
     <system-out><![CDATA[
 @Test3
 Scenario: Search for content by specifying the "media" parameter with valid media types    # src/test/java/features/catalogResources.feature:27
@@ -107,7 +107,7 @@ Scenario: Search for content by specifying the "media" parameter with valid medi
   And "collectionName" in the response body is "Friends: The Complete Series" in result 18 # stepDefinitions.catalogResourceStepDefinition.in_the_response_body_is_in_result(java.lang.String,java.lang.String,java.lang.Integer)
 ]]></system-out>
   </testcase>
-  <testcase name="Search for content by specifying the &quot;entity&quot; parameter with valid entities based on the media type" classname="iTunes Store API- Constructing Searches" time="0.291">
+  <testcase name="Search for content by specifying the &quot;entity&quot; parameter with valid entities based on the media type" classname="iTunes Store API- Constructing Searches" time="0.314">
     <system-out><![CDATA[
 @Test4
 Scenario: Search for content by specifying the "entity" parameter with valid entities based on the media type # src/test/java/features/catalogResources.feature:39
@@ -124,7 +124,7 @@ Scenario: Search for content by specifying the "entity" parameter with valid ent
   And "kind" in the response body is "ebook" in result 1                                                      # stepDefinitions.catalogResourceStepDefinition.in_the_response_body_is_in_result(java.lang.String,java.lang.String,java.lang.Integer)
 ]]></system-out>
   </testcase>
-  <testcase name="Search for content by specifying the &quot;attribute&quot; parameter with valid attributes based on the media type" classname="iTunes Store API- Constructing Searches" time="0.197">
+  <testcase name="Search for content by specifying the &quot;attribute&quot; parameter with valid attributes based on the media type" classname="iTunes Store API- Constructing Searches" time="0.251">
     <system-out><![CDATA[
 @Test5
 Scenario: Search for content by specifying the "attribute" parameter with valid attributes based on the media type # src/test/java/features/catalogResources.feature:52
@@ -142,7 +142,7 @@ Scenario: Search for content by specifying the "attribute" parameter with valid 
   And "primaryGenreName" in the response body is "Pop" in result 1                                                 # stepDefinitions.catalogResourceStepDefinition.in_the_response_body_is_in_result(java.lang.String,java.lang.String,java.lang.Integer)
 ]]></system-out>
   </testcase>
-  <testcase name="Search for content with a combination of multiple parameters" classname="iTunes Store API- Constructing Searches" time="0.197">
+  <testcase name="Search for content with a combination of multiple parameters" classname="iTunes Store API- Constructing Searches" time="0.221">
     <system-out><![CDATA[
 @Test6
 Scenario: Search for content with a combination of multiple parameters                 # src/test/java/features/catalogResources.feature:66
@@ -164,7 +164,7 @@ Scenario: Search for content with a combination of multiple parameters          
   And "releaseDate" in the response body is "2014-11-07T08:00:00Z" in result 1         # stepDefinitions.catalogResourceStepDefinition.in_the_response_body_is_in_result(java.lang.String,java.lang.String,java.lang.Integer)
 ]]></system-out>
   </testcase>
-  <testcase name="Search for content and verify the number of search results using the &quot;limit&quot; parameter." classname="iTunes Store API- Constructing Searches" time="0.271">
+  <testcase name="Search for content and verify the number of search results using the &quot;limit&quot; parameter." classname="iTunes Store API- Constructing Searches" time="0.173">
     <system-out><![CDATA[
 @Test7
 Scenario: Search for content and verify the number of search results using the "limit" parameter. # src/test/java/features/catalogResources.feature:84
