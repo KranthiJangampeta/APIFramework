@@ -2,7 +2,7 @@ package pojo;
 
 import java.util.List;
 
-public class searchResponse {
+public class SearchResponse {
 
 	private int resultCount;
 	private List<Results> results;

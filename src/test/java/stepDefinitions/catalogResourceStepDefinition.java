@@ -11,6 +11,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
+import pojo.SearchResponse;
 import resources.ApiResources;
 import resources.Utils;
 
@@ -30,8 +31,9 @@ public class catalogResourceStepDefinition extends Utils {
 	Response response;
 	Request request;
 
-	@Given("construct a search with parameter below keyValue pairs")
-	public void construct_a_search_with_parameter_below_key_value_pairs(DataTable dataTable) throws IOException {
+	@Given("construct a fully qualified URL content request with parameters")
+	public void construct_a_fully_qualified_URL_content_request_with_parameters(DataTable dataTable)
+			throws IOException {
 
 		List<Map<String, String>> queryParameters = dataTable.asMaps();
 		for (Map<String, String> queryParameter : queryParameters) {
@@ -62,7 +64,6 @@ public class catalogResourceStepDefinition extends Utils {
 	public void the_api_call_is_success_with_status_code(Integer int1) {
 
 		assertEquals(response.getStatusCode(), int1);
-		
 
 	}
 
@@ -77,6 +78,13 @@ public class catalogResourceStepDefinition extends Utils {
 
 		assertEquals(getJsonIntValue(response, key), expectedValue);
 
+	}
+
+	@Then("{string} in the response body is {string} in result {int}")
+	public void in_the_response_body_is_in_result(String key, String expectedValue, Integer resultNumber)
+			throws IOException {
+
+		assertEquals(getJsonStringValue(response, key, resultNumber), expectedValue);
 	}
 
 }
