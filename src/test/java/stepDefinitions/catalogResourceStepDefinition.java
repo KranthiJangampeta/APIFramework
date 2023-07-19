@@ -11,18 +11,16 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
-import pojo.SearchResponse;
-import resources.ApiResources;
-import resources.Utils;
 
 import java.io.IOException;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import org.junit.runner.Request;
 
 import io.cucumber.datatable.DataTable;
+import resources.ApiResources;
+import resources.Utils;
 
 public class catalogResourceStepDefinition extends Utils {
 
